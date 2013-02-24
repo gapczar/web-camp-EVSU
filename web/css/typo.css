@@ -1,0 +1,43 @@
+label{
+	font-family:arial;
+	font-size: 15px;
+	color:#ffffff;
+}
+input[type="text"],input[type="password"]{
+	width:200px;
+	padding:3px;
+	border-radius:5px;
+}
+
+nav ul{
+	text-align: center;
+}
+nav li{
+	display:inline-block;
+}
+
+.text-glow-small{
+	font-family: arial;
+	font-size: 13px;
+	color: #ffffff;
+	text-shadow:1px 1px 5px #ffffff;
+}
+
+.text-glow-medium{
+	font-family: arial;
+	font-size: 20px;
+	color: #ffffff;
+	text-shadow:2px 2px 7px #ffffff;
+}
+.pic-wrap{
+	width:250px;
+	height:250px;
+	border:5px solid rgb(30,30,30);
+	float:left;
+}
+
+
+
+
+
+
