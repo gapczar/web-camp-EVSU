@@ -57,7 +57,7 @@ $markup=new markup();
 
 			<div id="side-wrapper">
 				<div id="side">
-					<div id="form-wrapper"
+					<div id="form-wrapper">
 						<form action="" method="">
 						<?php
 							$markup->add_input('text','username','','placeholder="username" required');
