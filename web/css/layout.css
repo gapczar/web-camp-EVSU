@@ -8,25 +8,26 @@ body{
 }
 header{
 	height:35px;
-	
+	float:left;
 
 }
 nav{
 	height:30px;
 	background:-moz-linear-gradient(top,rgb(40,40,40),rgb(120,120,120));
 	background:-webkit-linear-gradient(top,rgb(40,40,40),rgb(120,120,120));
-
+	float:left;
 }
 div#content{
 	background:-moz-linear-gradient(top,rgb(40,40,40),rgb(70,70,70));
 	background:-webkit-linear-gradient(top,rgb(40,40,40),rgb(70,70,70));
-
+	float:left;
 }
 section{
 	height:300px;
 	width:700px;
 	margin-right:20px;
 	background-color: yellow;
+	float:left;
 }
 aside{
 	width:240px;
@@ -37,5 +38,6 @@ aside{
 footer{
 	height:30px;
 	background-color: rgb(30,30,30);
+	clear:both;
 
 }
