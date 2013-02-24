@@ -2,7 +2,7 @@
 	class DB{
 
 		public static function connection(){
-				$dns="mysql:host=localhost;dbname=go";
+				$dns="mysql:host=localhost;dbname=apps";
 				$user='root';
 				$pass='root';
 				try{
