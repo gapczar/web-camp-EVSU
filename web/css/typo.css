@@ -19,7 +19,7 @@ input[type="text"],input[type="password"],input[type="email"]{
 	text-align: center;
 }
 #menu li{
-	display:inline-block;
+	//display:inline-block;
 }
 #menu a:link,#menu a:visited, #menu a:active{
 	padding:15px 20px;
@@ -44,10 +44,11 @@ input[type="text"],input[type="password"],input[type="email"]{
 	width:inherit;
 	height:inherit;
 }
-<<<<<<< HEAD
+
 #side #form-wrapper{
+	margin-top:30px;
 	width:220px;
-	height:500px;
+	height:410px;
 	background-color:rgb(30,30,30);
 	padding:15px;
 	border-radius:5px;
@@ -61,8 +62,6 @@ input[type="text"],input[type="password"],input[type="email"]{
 	color: #ffffff;
 
 }
-=======
->>>>>>> 8f3bdb694d3446c592c8d94e41d7bf87de52ae5f
 
 .text-glow-small{
 	font-family: arial;
@@ -70,13 +69,16 @@ input[type="text"],input[type="password"],input[type="email"]{
 	color: #ffffff;
 	font-weight:bold;
 	text-shadow:1px 1px 5px #ffffff;
+	
 }
 
 .text-glow-medium{
 	font-family: arial;
-	font-size: 20px;
+	font-size: 30px;
 	color: #ffffff;
+	font-weight:bold;
 	text-shadow:2px 2px 5px #ffffff;
+	margin-bottom:20px;
 }
 .text-glow-large{
 	font-family: arial;
