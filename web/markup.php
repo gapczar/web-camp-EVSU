@@ -17,7 +17,7 @@ class markup{
 	function add_select($option,$opt){
 
 		echo '<select>';
-		foreach($option as opt)
+		foreach($option as $opt)
 		{
 			echo '<option value="'.$opt.'">'.$opt.'</option>';
 		}
