@@ -61,6 +61,21 @@ $usr=new user($DB);
 			<div id="content-side-inner-wrapper">
 				<div id="content-wrapper">
 					<div id="content">
+					<div id="slider">
+						<?php
+
+							$markup->add_img('apps-list/images/bubbles.png');
+							$markup->add_img('apps-list/images/cymera.png');
+							$markup->add_img('apps-list/images/ninja-action.png');
+							$markup->add_img('apps-list/images/swiftkey.png');
+							$markup->add_img('apps-list/images/youtube.png');
+						?>
+					</div>
+						
+					</div>
+				</div>
+				<div id="side-wrapper">
+					<div id="side">
 						<form action="" method="POST">
 						<?php
 
@@ -71,11 +86,6 @@ $usr=new user($DB);
 							$markup->add_input('submit','login','value="Save"');
 						?>
 						</form>
-					</div>
-				</div>
-				<div id="side-wrapper">
-					<div id="side">
-		
 					</div>
 				</div>
 			</div>
