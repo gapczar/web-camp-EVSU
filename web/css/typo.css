@@ -15,7 +15,14 @@ nav ul{
 nav li{
 	display:inline-block;
 }
-
+nav a:link,nav a:visited, nav a:active{
+	padding:15px 20px;
+	text-decoration: none;
+	float: left;
+}
+nav a:hover{
+	background-color:rbg(30,30,30);
+}
 .text-glow-small{
 	font-family: arial;
 	font-size: 13px;
@@ -27,7 +34,13 @@ nav li{
 	font-family: arial;
 	font-size: 20px;
 	color: #ffffff;
-	text-shadow:2px 2px 7px #ffffff;
+	text-shadow:2px 2px 5px #ffffff;
+}
+.text-glow-large{
+	font-family: arial;
+	font-size: 70px;
+	color: #ffffff;
+	text-shadow:3px 3px 7px #ffffff;
 }
 .pic-wrap{
 	width:250px;
