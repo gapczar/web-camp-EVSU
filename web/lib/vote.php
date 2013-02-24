@@ -2,12 +2,21 @@
 	class vote{
 
 		function __construct($DB){
-			$this->DB=$DB
+			$this->DB=$DB;
 		}
 
-		private $DB
+		private $DB;
 		private $userID;
 		private $appID;
+
+		public function set_userID($userID){
+			$this->userID=$userID;
+		}
+		
+		public function set_appID($userID){
+			$this->appID=$appID;
+		}
+
 
 		public function vote($userID,$appID){
 
@@ -30,8 +39,12 @@
 			$INS=$this->DB->prepare($sql);
 			$INS->bindParam(':UI',$this->userID);
 
-			$return=$INS->execute();
-			return=$return;
+			$result=$INS->execute();
+			foreach ($result as $key);
+				if($key['cnt']<5)
+					return true;
+				else
+					return false;
 		}
 
 	}

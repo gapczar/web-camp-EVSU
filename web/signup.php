@@ -1,8 +1,11 @@
 <?php
 
+require_once('lib/lib_index.php');
+
 include('markup.php');
 
 $markup=new markup();
+
 
 
 ?>
