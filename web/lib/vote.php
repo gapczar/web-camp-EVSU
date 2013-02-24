@@ -41,15 +41,20 @@
 		public function validateVoteNums($userID){
 
 			$sql="SELECT COUNT(*) as cnt FROM vote WHERE userID=:UI";
-			$INS=$this->DB->prepare($sql);
-			$INS->bindParam(':UI',$this->userID);
+				try{
+					$INS=$this->DB->prepare($sql);
+					$INS->bindParam(':UI',$this->userID);
 
-			$result=$INS->execute();
-			foreach ($result as $key);
-				if($key['cnt']<5)
-					return true;
-				else
-					return false;
+					$result=$INS->execute();
+					foreach ($result as $key);
+						if($key['cnt']<5)
+							return true;
+						else
+							return false;
+				}
+				catch(PDOExection $e){
+					echo $e->getMessage();
+				}			
 		}
 
 	}

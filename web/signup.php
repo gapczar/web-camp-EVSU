@@ -83,7 +83,7 @@ $usr=new user($DB);
 							$markup->add_input('email','email','','placeholder="email@nnn.com" required');
 							$markup->add_input('password','password1','','placeholder="password" required');
 							$markup->add_input('password','password','','placeholder="confirm password" required');
-							$markup->add_input('submit','login','value="Save"');
+							$markup->add_input('submit','sign','value="Save"');
 						?>
 						</form>
 					</div>
