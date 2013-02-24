@@ -2,11 +2,14 @@ label{
 	font-family:arial;
 	font-size: 15px;
 	color:#ffffff;
+	margin-bottom:10px;
 }
 input[type="text"],input[type="password"]{
 	width:200px;
 	padding:3px;
 	border-radius:5px;
+	margin-bottom:15px;
+
 }
 
 nav ul{
@@ -15,11 +18,27 @@ nav ul{
 nav li{
 	display:inline-block;
 }
+nav a:link,nav a:visited, nav a:active{
+	padding:15px 20px;
+	text-decoration: none;
+	float: left;
+}
+nav a:hover{
+	background-color:rgb(40,40,40);
+}
+
+section article #slider-wrap{
+	width:500px;
+	height:400px;
+	border:20px solid rgb(30,30,30);
+	box-shadow:5px 5px 10px black;
+}
 
 .text-glow-small{
 	font-family: arial;
-	font-size: 13px;
+	font-size: 15px;
 	color: #ffffff;
+	font-weight:bold;
 	text-shadow:1px 1px 5px #ffffff;
 }
 
@@ -27,7 +46,15 @@ nav li{
 	font-family: arial;
 	font-size: 20px;
 	color: #ffffff;
-	text-shadow:2px 2px 7px #ffffff;
+	text-shadow:2px 2px 5px #ffffff;
+}
+.text-glow-large{
+	font-family: arial;
+	font-size: 70px;
+	color: #ffffff;
+	font-weight:bold;
+	text-shadow:3px 3px 7px #ffffff;
+	margin:10px 0;
 }
 .pic-wrap{
 	width:250px;

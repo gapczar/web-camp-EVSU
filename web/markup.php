@@ -14,17 +14,17 @@ class markup{
 		echo '<img src="'.$img.'" '.$class.'/>';
 	}
 
-	function add_select($option,opt){
+	function add_select($option,$opt){
 
 		echo '<select>';
-		foreach($option as opt)
+		foreach($option as $opt)
 		{
-			echo '<option value="'.$opt.'">'.$opt.',</option>';
+			echo '<option value="'.$opt.'">'.$opt.'</option>';
 		}
 		echo '</slect>';
 
 	}
 
-	
+
 }
 ?>

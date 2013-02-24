@@ -7,7 +7,7 @@ body{
 
 }
 header{
-	height:80px;
+	height:35px;
 	
 
 }
@@ -26,12 +26,13 @@ section{
 	height:300px;
 	width:700px;
 	margin-right:20px;
-	/*background-color: yellow;*/
+	background-color: yellow;
 }
 aside{
 	width:240px;
 	height:300px;
-	/*background-color: green;*/
+	background-color: green;
+	float:left;
 }
 footer{
 	height:30px;
