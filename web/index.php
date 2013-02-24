@@ -45,8 +45,8 @@ $markup=new markup();
 				<article>
 					<form action="" method="">
 					<?php
-						$markup->add_input('text','username','','username required');
-						$markup->add_input('password','password','','password required');
+						$markup->add_input('text','username','','placeholder="username" required');
+						$markup->add_input('password','password','','placeholder="password" required');
 						$markup->add_input('submit','login','value="Login"');
 					?>
 					</form>
