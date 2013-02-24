@@ -3,6 +3,7 @@ body{
 	//width:960px;
 	//margin:0 auto;
 	background:-webkit-linear-gradient(top,rgb(40,40,40),rgb(70,70,70));
+	background-repeat:no-repeat;
 
 }
 header{
@@ -19,6 +20,7 @@ nav{
 	float:left;
 }
 div#content{
+	margin-top:65px;
 	width:960px;
 	background:-moz-linear-gradient(top,rgb(40,40,40),rgb(70,70,70));
 	background:-webkit-linear-gradient(top,rgb(40,40,40),rgb(70,70,70));
@@ -26,6 +28,7 @@ div#content{
 }
 div#wrapper{
 	width:960px;
+	height
 	overflow:hidden;
 	margin:0 auto;
 
