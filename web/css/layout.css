@@ -4,7 +4,7 @@
 	overflow:hidden;
 }
 #banner-outer-wrapper{
-	width:100%x;
+	width:100%;
 	overflow:hidden;
 	background-color:rgb(40,40,40);
 }
@@ -19,10 +19,10 @@
 		}
 
 #menu-outer-wrapper{
-	width:100%x;
+	width:100%;
 	overflow:hidden;
-	background:webkit-linear-gradient(top,rgb(40,40,40),rgb(120,120,120));
-	background:moz-linear-gradient(top,rgb(40,40,40),rgb(120,120,120));
+	background:-webkit-linear-gradient(top,rgb(40,40,40),rgb(120,120,120));
+	background:-moz-linear-gradient(top,rgb(40,40,40),rgb(120,120,120));
 }
 	#menu-inner-wrapper{
 		width:960px;
@@ -37,10 +37,10 @@
 
 
 #content-side-outer-wrapper{
-	width:100%x;
+	width:100%;
 	overflow:hidden;
-	background:webkit-linear-gradient(top,rgb(40,40,40),rgb(70,70,70));
-	background:moz-linear-gradient(top,rgb(40,40,40),rgb(70,70,70));
+	background:-webkit-linear-gradient(top,rgb(40,40,40),rgb(70,70,70));
+	background:-moz-linear-gradient(top,rgb(40,40,40),rgb(70,70,70));
 }
 	#content-side-inner-wrapper{
 		width:960px;
@@ -71,7 +71,7 @@
 
 
 #footer-outer-wrapper{
-	width:100%x;
+	width:100%;
 	overflow:hidden;
 	background-color:rgb(40,40,40);
 }
