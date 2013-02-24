@@ -18,6 +18,7 @@ $markup=new markup();
 </head>
 
 <body>
+	<div>
 		<header>
 			<h1 class="text-glow-large">EVSU</h1>
 			<nav>
@@ -29,25 +30,23 @@ $markup=new markup();
 				</ul>
 			</nav>
 		</header>
-
-	<div>
 		<section>
-
 			<article>
 
 
 			</article>
 
 
-		</section>	
+		</section>
 		<aside>
 			<section>
 				<article>
 					<form action="" method="">
 					<?php
-						$markup->add_input('text','username','','username required');
-						$markup->add_input('password','password','','password required');
-						$markup->add_input('submit','login','value="Login"');
+						$markup->add_input('text','username','','placeholder="username" required');
+						$markup->add_input('password','password','','placeholder="password" required');
+						$markup->add_input('password','password','','placeholder="confirm password" required');
+						$markup->add_input('submit','login','value="Save"');
 					?>
 					</form>
 				</article>
