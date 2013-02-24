@@ -44,6 +44,7 @@ input[type="text"],input[type="password"],input[type="email"]{
 	width:inherit;
 	height:inherit;
 }
+<<<<<<< HEAD
 #side #form-wrapper{
 	width:220px;
 	height:500px;
@@ -60,6 +61,8 @@ input[type="text"],input[type="password"],input[type="email"]{
 	color: #ffffff;
 
 }
+=======
+>>>>>>> 8f3bdb694d3446c592c8d94e41d7bf87de52ae5f
 
 .text-glow-small{
 	font-family: arial;
