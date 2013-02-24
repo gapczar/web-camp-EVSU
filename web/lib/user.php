@@ -10,6 +10,19 @@
 		private $password;
 		private $email;
 
+		public function set_username($username){
+			$this->username=$username;
+		}
+
+		public function set_password($password){
+			$this->password=sha1($password);
+		}
+	
+		public function set_email($email){
+			$this->email=$email;
+		}
+		
+
 		public function isEmail($email){
 			if (filter_var($email, FILTER_VALIDATE_EMAIL))
 				return true;
@@ -18,8 +31,8 @@
 
 		}
 
-		public function passwordMatched($email1,$email2){
-			if (filter_var($email, FILTER_VALIDATE_EMAIL))
+		public function passwordMatched($password1,$password){
+			if (filter_var($password==$password1))
 				return true;
 			else 
 				return false;
@@ -28,12 +41,13 @@
 
 		public function register(){
 			$query="INSERT INTO user SET username=:UN,password=:PS,email=:EM";
+
 			$INS=$this->DB->prepare($query);
-			$INS->bindParam(':FN',$this->username);
-			$INS->bindParam(':LN',$this->password);
-			$INS->bindParam(':ADD',$this->email);
-			$x=$INS->execute();
-			if($x){
+			$INS->bindParam(':UN',$this->username);
+			$INS->bindParam(':PS',$this->password);
+			$INS->bindParam(':EM',$this->email);
+			
+			if($INS->execute()){
 				return true;
 			}
 			else
