@@ -59,7 +59,7 @@
 
 		}
 			#content{
-				height:400px;
+				height:500px;
 				margin:5px;
 			}
 
@@ -70,7 +70,7 @@
 
 		}
 			#side{
-				height:400px;
+				height:500px;
 				margin:5px;
 			}
 
@@ -80,6 +80,7 @@
 	overflow:hidden;
 	background-color:rgb(40,40,40);
 	float:left;
+	clear:both;
 }
 	#footer-inner-wrapper{
 		width:960px;
