@@ -42,6 +42,12 @@ input[type="text"],input[type="password"]{
 	width:inherit;
 	height:inherit;
 }
+.text-ordinary{
+	font-family: arial;
+	font-size: 15px;
+	color: #ffffff;
+
+}
 
 .text-glow-small{
 	font-family: arial;
