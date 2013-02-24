@@ -14,6 +14,11 @@ input[type="text"],input[type="password"],input[type="email"]{
 	margin-bottom:15px;
 
 }
+input[type="submit"]{
+	min-width:150px;
+	padding:2px;
+
+}
 
 #menu ul{
 	text-align: center;
@@ -28,6 +33,7 @@ input[type="text"],input[type="password"],input[type="email"]{
 }
 #menu a:hover{
 	background-color:rgb(40,40,40);
+
 }
 
 #content #slider{
@@ -51,7 +57,7 @@ input[type="text"],input[type="password"],input[type="email"]{
 	height:410px;
 	background-color:rgb(30,30,30);
 	padding:15px;
-	border-radius:5px;
+	border-radius:10px;
 }
 
 
