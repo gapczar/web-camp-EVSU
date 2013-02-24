@@ -7,6 +7,21 @@ include('markup.php');
 $markup=new markup();
 
 $usr=new user($DB);
+ if(isset($_POST['sign'])){
+ 	if($usr->isEmail($_POST['email'])){
+ 		$password=$_POST['password'];
+ 		$password1=$_POST['password1'];
+ 		if($usr->passwordMatched($password1,$password)){
+		 	$usr->set_email($_POST['email']);
+		 	$usr->set_username($_POST['username']);
+		 	$usr->set_password($_POST['password']);
+		 	$usr->register();
+	 	}
+
+ 	}
+
+
+ }
 
 
 ?>
@@ -50,8 +65,8 @@ $usr=new user($DB);
 						$markup->add_input('text','username','value','placeholder="username" required');
 						$markup->add_input('email','email','value','placeholder="email@nnn.com" required');
 						$markup->add_input('password','password','value','placeholder="password" required');
-						$markup->add_input('password','password','value','placeholder="confirm password" required');
-						$markup->add_input('submit','login','value="Save"');
+						$markup->add_input('password','password1','value','placeholder="confirm password" required');
+						$markup->add_input('submit','sign','value="Save"');
 					?>
 					</form>
 				</article>
