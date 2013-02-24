@@ -12,6 +12,7 @@
 <body>
 	<div>
 		<header>
+			<h1 class="text-glow-large">EVSU</h1>
 			<nav>
 				<ul>
 					<li><a class="text-glow-small" href="">Home</a></li>
