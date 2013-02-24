@@ -12,7 +12,7 @@ header{
 
 }
 nav{
-	height:auto;
+	height:30px;
 	background:-moz-linear-gradient(top,rgb(40,40,40),rgb(120,120,120));
 	background:-webkit-linear-gradient(top,rgb(40,40,40),rgb(120,120,120));
 
@@ -26,12 +26,12 @@ section{
 	height:300px;
 	width:700px;
 	margin-right:20px;
-	/*background-color: yellow;*/
+	background-color: yellow;
 }
 aside{
 	width:240px;
 	height:300px;
-	/*background-color: green;*/
+	background-color: green;
 }
 footer{
 	height:30px;
