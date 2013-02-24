@@ -14,10 +14,10 @@
 		<header>
 			<nav>
 				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">Vote</a></li>
-					<li><a href="">Profile</a></li>
-					<li><a href="">Log Out</a></li>
+					<li><a class="text-glow" href="">Home</a></li>
+					<li><a class="text-glow" href="">Vote</a></li>
+					<li><a class="text-glow" href="">Profile</a></li>
+					<li><a class="text-glow" href="">Log Out</a></li>
 				</ul>
 			</nav>
 		</header>
