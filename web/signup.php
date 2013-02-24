@@ -45,7 +45,7 @@ $usr=new user($DB);
 		<aside>
 			<section>
 				<article>
-					<form action="" method="">
+					<form action="" method="POST">
 					<?php
 						$markup->add_input('text','username','value','placeholder="username" required');
 						$markup->add_input('email','email','value','placeholder="email@nnn.com" required');
