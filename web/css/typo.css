@@ -43,23 +43,26 @@ p {
 	width:600px;
 	height:400px;
 	box-shadow:5px 5px 10px black;
-	border-radius:5px;
+	border-radius:10px;
 	margin-top:30px;
+	border:10px solid rgb(30,30,30);
 }
 
 #content #slider img{
 	position:absolute;
 	width:inherit;
 	height:inherit;
+	border-radius:5px;
 }
 
 #side #form-wrapper{
 	margin-top:30px;
-	width:220px;
+	width:210px;
 	height:400px;
 	background-color:rgb(30,30,30);
 	padding:15px;
 	border-radius:10px;
+	box-shadow:5px 5px 10px black;
 }
 
 
