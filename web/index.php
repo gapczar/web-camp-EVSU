@@ -57,6 +57,7 @@ $markup=new markup();
 
 			<div id="side-wrapper">
 				<div id="side">
+					<div id="form-wrapper"
 						<form action="" method="">
 						<?php
 							$markup->add_input('text','username','','placeholder="username" required');
@@ -64,6 +65,7 @@ $markup=new markup();
 							$markup->add_input('submit','login','value="Login"');
 						?>
 						</form>
+					</div>
 				</div>
 			</div>
 		</div>
