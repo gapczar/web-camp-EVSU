@@ -21,15 +21,20 @@
 		public function vote($userID,$appID){
 
 			$query="INSERT INTO vote SET appID=:AP,userID=:ID";
-			$INS=$this->DB->prepare($query);
-			$INS->bindParam(':AP',$this->userID);
-			$INS->bindParam(':ID',$this->appID);
-			$x=$INS->execute();
-			if($x){
-				return true;
+			try{
+				$INS=$this->DB->prepare($query);
+				$INS->bindParam(':AP',$this->userID);
+				$INS->bindParam(':ID',$this->appID);
+				$x=$INS->execute();
+				if($x){
+					return true;
+				}
+				else
+					return false;
 			}
-			else
-				return false;
+			catch(PDOExection $e){
+				echo $e->getMessage();
+			}
 
 		}
 

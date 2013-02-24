@@ -6,6 +6,7 @@ include('markup.php');
 
 $markup=new markup();
 
+$usr=new user($DB);
 
 
 ?>
