@@ -42,7 +42,7 @@ $markup=new markup();
 
 		</section>	
 			<aside>
-				<section>
+	
 					<article>
 						<form action="" method="">
 						<?php
@@ -52,8 +52,6 @@ $markup=new markup();
 						?>
 						</form>
 					</article>
-				</section>
-
 			</aside>
 		</div>
 	</div>
