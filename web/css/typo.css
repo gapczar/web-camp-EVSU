@@ -19,6 +19,9 @@ input[type="submit"]{
 	padding:2px;
 
 }
+p {
+	color:white;
+}
 
 #menu ul{
 	text-align: center;

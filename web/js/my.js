@@ -2,11 +2,10 @@ $(document).ready({
 	
 	//.....slide
 	function slide(){
-		$("#slider img:first").fadeOut(function(){
-			$(this).appendTo($("#slider")).fadeIn(2000);
+		$("#content #slider img:first").fadeOut(function(){
+			$(this).appendTo($("#content #slider")).fadeIn(2000);
 		});
 	}
-	setInterval(function(){slide()},3000);
+	setInterval(function(){ slide() },3000);
 
-	
 });
