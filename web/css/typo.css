@@ -21,12 +21,21 @@ nav a:link,nav a:visited, nav a:active{
 	float: left;
 }
 nav a:hover{
-	background-color:rgb(30,30,30);
+	background-color:rgb(40,40,40);
 }
+
+section article #slider-wrap{
+	width:500px;
+	height:400px;
+	border:20px solid rgb(30,30,30);
+	box-shadow:5px 5px 10px black;
+}
+
 .text-glow-small{
 	font-family: arial;
 	font-size: 15px;
 	color: #ffffff;
+	font-weight:bold;
 	text-shadow:1px 1px 5px #ffffff;
 }
 
@@ -40,6 +49,7 @@ nav a:hover{
 	font-family: arial;
 	font-size: 70px;
 	color: #ffffff;
+	font-weight:bold;
 	text-shadow:3px 3px 7px #ffffff;
 }
 .pic-wrap{
