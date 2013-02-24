@@ -5,8 +5,8 @@
 	<link rel="stylesheet" style="text/css" href="css/normalizer.css"/>
 	<link rel="stylesheet" style="text/css" href="css/layout.css"/>
 	<link rel="stylesheet" style="text/css" href="css/typo.css"/>
-	<script type="text/javascript" src="jquery.js"></script>
-	<script type="text/javascript" src="my.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/my.js"></script>
 </head>
 
 <body>
