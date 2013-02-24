@@ -37,47 +37,55 @@ $usr=new user($DB);
 </head>
 
 <body>
-	<div>
-		<header>
-			<h1 class="text-glow-large">EVSU</h1>
-			<nav>
-				<ul>
-					<li><a class="text-glow-small" href="">Home</a></li>
-					<li><a class="text-glow-small" href="">Vote</a></li>
-					<li><a class="text-glow-small" href="">Profile</a></li>
-					<li><a class="text-glow-small" href="">Log Out</a></li>
-				</ul>
-			</nav>
-		</header>
-		<section>
-			<article>
+	<div id="wrapper">
+		<div id="banner-outer-wrapper">
+			<div id="banner-inner-wrapper">
+				<div id="banner">
+					<h1 class="text-glow-large">EVSU</h1>
+				</div>
+			</div>
+		</div>
+		<div id="menu-outer-wrapper">
+			<div id="menuu-inner-wrapper">
+				<div id="menu">
+					<ul>
+						<li><a class="text-glow-small" href="">Home</a></li>
+						<li><a class="text-glow-small" href="">Vote</a></li>
+						<li><a class="text-glow-small" href="">Profile</a></li>
+						<li><a class="text-glow-small" href="">Log Out</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="content-side-outer-wrapper">
+			<div id="content-side-inner-wrapper">
+				<div id="content-wrapper">
+					<div id="content">
+						<form action="" method="POST">
+						<?php
 
-
-			</article>
-
-
-		</section>
-		<aside>
-				<article>
-					<form action="" method="POST">
-					<?php
-<<<<<<< HEAD
-						$markup->add_input('text','username','value','placeholder="username" required');
-						$markup->add_input('email','email','value','placeholder="email@nnn.com" required');
-						$markup->add_input('password','password','value','placeholder="password" required');
-						$markup->add_input('password','password1','value','placeholder="confirm password" required');
-						$markup->add_input('submit','sign','value="Save"');
-=======
-						$markup->add_input('text','username','','placeholder="username" required');
-						$markup->add_input('email','email','','placeholder="email@nnn.com" required');
-						$markup->add_input('password','password','','placeholder="password" required');
-						$markup->add_input('password','password','','placeholder="confirm password" required');
-						$markup->add_input('submit','login','value="Save"');
->>>>>>> 5d11956aa04be3a174946c607978b00663bb9afd
-					?>
-					</form>
-				</article>
-		</aside>
-	</div>
+							$markup->add_input('text','username','','placeholder="username" required');
+							$markup->add_input('email','email','','placeholder="email@nnn.com" required');
+							$markup->add_input('password','password1','','placeholder="password" required');
+							$markup->add_input('password','password','','placeholder="confirm password" required');
+							$markup->add_input('submit','login','value="Save"');
+						?>
+						</form>
+					</div>
+				</div>
+				<div id="side-wrapper">
+					<div id="side">
+		
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer-outer-wrapper">
+			<div id="footer-inner-wrapper">
+				<div id="footer">
+				</div>
+			</div>
+		</div>
+</div>
 </body>
 </html>
