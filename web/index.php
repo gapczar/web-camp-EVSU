@@ -74,7 +74,9 @@ $markup=new markup();
 	</div>
 	<div id="footer-outer-wrapper">
 		<div id="footer-inner-wrapper">
-			<div id="footer"></div>
+			<div id="footer">
+				<p>Copyright &copy; Estern Visayas State University. All Rights Reserved</p>
+			</div>
 		</div>
 	</div>
 </div>
