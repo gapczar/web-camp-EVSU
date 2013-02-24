@@ -42,35 +42,40 @@
 		public function register(){
 			$query="INSERT INTO user SET username=:UN,password=:PS,email=:EM";
 
-			$INS=$this->DB->prepare($query);
-			$INS->bindParam(':UN',$this->username);
-			$INS->bindParam(':PS',$this->password);
-			$INS->bindParam(':EM',$this->email);
-			
-			if($INS->execute()){
-				return true;
+			try{
+				$INS=$this->DB->prepare($query);
+				$INS->bindParam(':UN',$this->username);
+				$INS->bindParam(':PS',$this->password);
+				$INS->bindParam(':EM',$this->email);
+				$INS->execute();
 			}
-			else
-				return false;
-
+			catch(PDOException $e){
+				echo $e->getMessage();
+			}
 		}
 
 		public function login(){
-			$sql="SELECT COUNT(*) as cnt,User_ID,UserName,Password,FirstName,LastName FROM user WHERE UserName=:UN AND Password=:PS";
-			$sth=$this->DB->prepare($sql);
-			$sth->bindParam(':UN',$this->UserName);
-			$sth->bindParam(':PS',$this->Password);
-			if($sth->execute()){
-				$row= $sth->fetch(PDO::FETCH_BOTH);
-				if($row['cnt']==0){
-					$_SESSION['logged_in']=false;
-				}
-				else{
-					$_SESSION['logged_in']=true;
-					$_SESSION['id']=true;
+			$sql="SELECT COUNT(*) as cnt,User_ID,username,password FROM user WHERE username=:UN AND password=:PS";
+			try{
+				$sth=$this->DB->prepare($sql);
+				$sth->bindParam(':UN',$this->username);
+				$sth->bindParam(':PS',$this->password);
+				if($sth->execute()){
+					$row= $sth->fetch(PDO::FETCH_BOTH);
+					if($row['cnt']==0){
+						$_SESSION['logged_in']=false;
+						$_SESSION['id']=$row['User_ID'];
+					}
+					else{
+						$_SESSION['logged_in']=true;
+						$_SESSION['id']=true;
 
+					}
+					// $_SESSION['User_Type']=$row[0];				
 				}
-				// $_SESSION['User_Type']=$row[0];				
+			}
+			catch(PDOException $e){
+				echo $e->getMessage();
 			}
 		}
 
