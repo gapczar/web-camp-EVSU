@@ -4,7 +4,7 @@ class markup{
 
 	function add_input($type,$name,$value=null,$hostreq=null){
 
-		echo '<input type="'.$type.'" name="'.$name.'" ' .$value.'" ' .$hostreq. '/>';
+		echo '<input type="'.$type.'"  name="'.$name.' ' .$value.' ' .$hostreq. '/>';
 
 
 	}
