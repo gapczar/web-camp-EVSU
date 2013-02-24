@@ -18,6 +18,7 @@ $markup=new markup();
 </head>
 
 <body>
+	<div id="wrapper">
 		<header>
 			<h1 class="text-glow-large">EVSU</h1>
 			<nav>
@@ -55,5 +56,6 @@ $markup=new markup();
 
 		</aside>
 	</div>
+</div>
 </body>
 </html>
