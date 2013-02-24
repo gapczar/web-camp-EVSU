@@ -2,8 +2,8 @@ $(document).ready({
 	
 	//.....slide
 	function slide(){
-		$("#selector").fadeOut(function(){
-			$(this).appendTo($("#target")).fadeIn(2000);
+		$("#slider-wrap img:first").fadeOut(function(){
+			$(this).appendTo($("#slider-wrap")).fadeIn(2000);
 		});
 	}
 	setInterval(function(){slide()},3000);
