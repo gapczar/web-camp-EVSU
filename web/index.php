@@ -45,11 +45,11 @@ $markup=new markup();
 				<div id="content">
 					<div id="slider">
 						<?php
-							$markup->addimg('../apps-list/images/bubbles.png');
-							$markup->addimg('../apps-list/images/cymera.png');
-							$markup->addimg('../apps-list/images/ninja-action.png');
-							$markup->addimg('../apps-list/images/swiftkey.png');
-							$markup->addimg('../apps-list/images/youtube.png');
+							$markup->add_img('../apps-list/images/bubbles.png');
+							$markup->add_img('../apps-list/images/cymera.png');
+							$markup->add_img('../apps-list/images/ninja-action.png');
+							$markup->add_img('../apps-list/images/swiftkey.png');
+							$markup->add_img('../apps-list/images/youtube.png');
 						?>
 					</div>
 				</div>
