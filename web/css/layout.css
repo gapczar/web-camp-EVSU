@@ -2,6 +2,9 @@ body{
 	
 	width:960px;
 	margin:0 auto;
+	background:-moz-linear-gradient(top,rgb(40,40,40),rgb(70,70,70));
+	background:-webkit-linear-gradient(top,rgb(40,40,40),rgb(70,70,70));
+
 }
 header{
 	height:80px;
@@ -11,10 +14,12 @@ header{
 nav{
 	height:30px;
 	background:-moz-linear-gradient(top,rgb(40,40,40),rgb(120,120,120));
+	background:-webkit-linear-gradient(top,rgb(40,40,40),rgb(120,120,120));
 
 }
 div#content{
 	background:-moz-linear-gradient(top,rgb(40,40,40),rgb(70,70,70));
+	background:-webkit-linear-gradient(top,rgb(40,40,40),rgb(70,70,70));
 
 }
 section{
@@ -31,6 +36,5 @@ aside{
 footer{
 	height:30px;
 	background-color: rgb(30,30,30);
-
 
 }
