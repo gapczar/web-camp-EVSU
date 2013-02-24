@@ -12,7 +12,7 @@ header{
 
 }
 nav{
-	height:30px;
+	height:auto;
 	background:-moz-linear-gradient(top,rgb(40,40,40),rgb(120,120,120));
 	background:-webkit-linear-gradient(top,rgb(40,40,40),rgb(120,120,120));
 
