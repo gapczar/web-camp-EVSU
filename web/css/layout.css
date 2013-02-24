@@ -29,6 +29,7 @@
 	#menu-inner-wrapper{
 		width:960px;
 		margin:0 auto;
+		overflow: hidden;
 
 	}
 		##menu{
@@ -48,6 +49,7 @@
 	#content-side-inner-wrapper{
 		width:960px;
 		margin:0 auto;
+		overflow: hidden;
 
 	}
 		#content-wrapper{
